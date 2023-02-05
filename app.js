@@ -9,3 +9,8 @@ function change(n, s) {
   panels[n - 1].classList.add('active')
   s.classList.add('nv-active')
 }
+
+function expand(id) {
+  console.log(id)
+  document.getElementById(id).classList.toggle("expanded")
+}
