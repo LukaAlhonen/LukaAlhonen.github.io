@@ -137,4 +137,8 @@ div img {
 }
 .cv-img {
     max-width: 300px;
+    background-color: #1E1F34;
+    border: 2px solid white;
+    box-shadow: 4px 4px white;
+    
 }
