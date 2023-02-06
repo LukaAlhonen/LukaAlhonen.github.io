@@ -127,8 +127,14 @@ div img {
 }
 .imgs-container img:hover {
     box-shadow: 4px 4px white;
+    cursor: pointer;
 }
 .expanded {
     width: 1000px;
     position: absolute;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+.cv-img {
+    max-width: 300px;
 }
