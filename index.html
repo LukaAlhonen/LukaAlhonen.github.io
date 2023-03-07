@@ -9,11 +9,11 @@
   <body>
     <div class="container">
       <nav class="navbar">
-          <a href="#" data-id="5">Contact Me</a>
-          <a href="#" data-id="4">Projects</a>
-          <a href="#" data-id="3">Experience</a>
-          <a href="#" data-id="2">About Me</a>
-          <a href="#" data-id="1">Home</a>
+          <a class="swag-link" href="#" data-id="5">Contact Me</a>
+          <a class="swag-link" href="#" data-id="4">Projects</a>
+          <a class="swag-link" href="#" data-id="3">Experience</a>
+          <a class="swag-link" href="#" data-id="2">About Me</a>
+          <a class="swag-link" href="#" data-id="1">Home</a>
       </nav>
     </div>
     <div>
@@ -31,7 +31,7 @@
             <img class="cv-img" src="Images/IMG_3026.PNG">
           </div>
           <h3>
-            Computer Engineering Student @<a href="https://www.abo.fi">Åbo Akademi</a>
+            Computer Engineering Student @<a class="swag-link" href="https://www.abo.fi">Åbo Akademi</a>
           </h3>
           
         </section>
@@ -103,15 +103,35 @@
             A number of these apps can be found under the Projects tab. 
             I have experience with a lot of common and widely used programming languages and technologies, including
             Python, Java, javascript, git/github, azure, etc. 
-            I currently have no real job experience in software development or IT but I do have experience from my studies and free time
-          </div>         
+          </div>
+          <div class="swag-box">
+            <h3>
+              Certificates
+            </h3>
+            <div>
+              <a href="https://www.testdome.com/certificates/807519b45a2f47d7a299d4207211dc77" class="testdome-certificate-stamp silver">
+                <span class="testdome-certificate-name">Luka Alhonen</span>
+                <span class="testdome-certificate-test-name">Technical Support</span>
+                <span class="testdome-certificate-card-logo">TestDome<br>Certificate</span>
+            </a>
+            <script>
+                var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css",
+                link = document.createElement("link");
+                link.href = stylesheet,
+                link.type = "text/css",
+                link.rel = "stylesheet",
+                link.media = "screen,print",
+                document.getElementsByTagName("head")[0].appendChild(link);
+            </script>
+            </div>
+          </div>
         </section>
         <section>
           <h1 class="heading">
             Projects
           </h1>     
           <div class="swag-box">
-            <h4><a href="https://lukaswebshop.azurewebsites.net">Luka's Webshop</a></h4>
+            <h4><a class="swag-link" href="https://lukaswebshop.azurewebsites.net">Luka's Webshop</a></h4>
             <p>
               A fullstack web app written in <strong>django</strong> and <strong>react</strong>, with a sqlite database.
               <br>
@@ -119,23 +139,19 @@
               <br>
               Anyone can browse the shop, but in order to buy or sell items, one has to register and log in to the site.
               <br><br>
-              The site is hosted on <strong>Azure App Service</strong> and can be found <a href="https://lukaswebshop.azurewebsites.net"><strong>Here</strong></a>
+              The site is hosted on <strong>Azure App Service</strong> and can be found <a class="swag-link" href="https://lukaswebshop.azurewebsites.net"><strong>Here</strong></a>
               <br><br>
-              The git repository can be found <strong><a href="https://github.com/LukaAlhonen/webshop">Here</a></strong>
+              The git repository can be found <strong><a class="swag-link" href="https://github.com/LukaAlhonen/webshop">Here</a></strong>
             </p>
             <div class="project-imgs">
               <div class="imgs-container">
                 <img id="img1" onclick="expand(id)" src="Images/webshop_img1.png">
                 <img id="img2" onclick="expand(id)" src="Images/webshop_img2.png">
               </div>
-              <div class="imgs-container">
-                <img id="img3" onclick="expand(id)" src="Images/webshop_img3.png">
-                <img id="img4" onclick="expand(id)" src="Images/webshop_img4.png">
-              </div>
             </div>
           </div>
           <div class="swag-box">
-            <h4><a href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">Cash Register System</a></h4>
+            <h4><a class="swag-link" href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">Cash Register System</a></h4>
             <p>
               A cash register system I created together with my group for a software development course.
               <br>
@@ -150,7 +166,7 @@
               The source code for the app can be found <strong><a href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">here</a></strong>
             </p>
             <img id="img5" onclick="expand(id)" src="Images/Screenshot from 2023-02-06 14-17-17.png">
-          </div>     
+          </div>
         </section>
         <section id="contact">
           <h1 class="heading">

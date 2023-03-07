@@ -6,12 +6,12 @@ body {
     font-family: sans-serif;
     background-image: url('image1.png');
 }
-a {
+.swag-link {
     text-decoration: none;
     color: white;
     position: relative;   
 }
-a::after {
+.swag-link::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -20,7 +20,7 @@ a::after {
     border-bottom: 2px solid white;
     transition: 0.4s;
 }
-a:hover::after {
+.swag-link:hover::after {
     width: 100%;
 }
 .navbar {
@@ -141,4 +141,7 @@ div img {
     border: 2px solid white;
     box-shadow: 4px 4px white;
     
+}
+.testdome-certificate-stamp silver {
+
 }
