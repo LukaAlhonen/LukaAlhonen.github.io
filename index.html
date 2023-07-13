@@ -1,176 +1,118 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Luka Alhonen</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   </head>
   <body>
-    <div class="sidebar">
-      <ul>
-        <li>
-          <a href="https://github.com/LukaAlhonen">
-            <img src="media/github-mark-white.svg" alt="github logo">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/luka-alhonen-11b2bb201/">
-            <img src="media/In-Blue-14@2x.png" alt="linkedin logo">
-          </a>
-        </li>
-      </ul>
+    <div class="container">
+      <nav class="navbar">
+          <a class="swag-link" href="#" data-id="5">Contact Me</a>
+          <a class="swag-link" href="#" data-id="4">Projects</a>
+          <a class="swag-link" href="#" data-id="3">Experience</a>
+          <a class="swag-link" href="#" data-id="2">About Me</a>
+          <a class="swag-link" href="#" data-id="1">Home</a>
+      </nav>
     </div>
-
-    <div class="sidebar2">
-      <a class="sidebar-email" href="mailto:luka.alhonen@protonmail.com">luka.alhonen@protonmail.com</a>
-    </div>
-
-    <div id="home" class="header sec">
-      <div class="hero">
-        <div>
-          <div class="hello">
-            <h1>Hello!</h1>
-            <h2>My name is</h2>
+    <div>
+      <main>
+        <section id="home" class="active">
+          <div>
+            <div id="name">
+              <h1 class="name">
+                Luka
+              </h1>
+              <h1 class="name">
+                Alhonen
+              </h1>
+            </div>
+            <img class="cv-img" src="Images/IMG_3026.PNG">
           </div>
-          <div class="name-title">
-            <h1 class="name">
-              Luka Alhonen
-            </h1>
-            <h4 class="subtitle">
-              <em>Programmer and Student</em>
+          <h3>
+            Computer Engineering Student @<a class="swag-link" href="https://www.abo.fi">Åbo Akademi</a>
+          </h3>
+          
+        </section>
+        <section id="about">
+          <h1 class="heading">
+            About Me
+          </h1>
+          <div class="swag-box">
+            <h4>
+              Hello!
             </h4>
-          </div>
-        </div>
-        <div class="img-container">
-          <img class="cv-img" src="media/IMG_4800.jpeg">
-        </div>
-      </div>
-      <div class="down-icon-container">
-        <a href="#about">
-          <img src="media/angle-double-small-down.png">
-        </a>
-      </div>
-    </div>
-
-    <nav class="main-nav">
-      <ul class="nav-list">
-        <li><a class="nav-link" href="#home">Home</a></li>
-        <li><a class="nav-link" href="#about">About</a></li>
-        <li><a class="nav-link" href="#experience">Experience</a></li>
-        <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="navbar-placeholder"></div>
-
-    <main>
-      <section id="about" class="sec">
-        <h1 class="heading">
-          > About Me
-        </h1>
-        <div class="swag-box">
-          <h2 class="sub-section-header">
-            General
-          </h2>
-          <div class="general">
-            <p class="left-border">
-              My name is Luka and I am a 23-year-old student from Helsinki, Finland. Computer science and 
+            <p>
+              My name is Luka and I am a 22-year-old third year computer engineering student at 
+              Åbo Akademi University from Turku, Finland. Computer science and 
               software development have been interests of mine for quite some time. 
               I had my first introduction to programming at the age of 16, 
               with the python programming language and soon after I started using the 
               Linux operating system as my daily driver.
-            </p>
-            <p class="left-border">
+              <br><br>
               During my studies and free time I have matured my programming 
               skills by learning more about data structures, algorithms, security, 
               web technologies, design patterns and more. 
-            </p>
-            <p class="left-border">
+              <br><br>
               As a worker I have been told by Employers and Officers in the army that 
               I am very diligent and able to learn from and receive feedback and 
               constructive criticism very well.
             </p>
+            <h3>
+              Education
+            </h3>
+            <p>
+              I graduated from Borgå Gymnasium upper secondary school in 2019 
+              and started my compulsory military service, during which I received 
+              leadership training as an NCO. In the autumn of 2020 I began my computer 
+              engineering studies at Åbo Akademi and I am currently finishing up my bachelors 
+              degree, which I hope to receive by the end of spring 2023.
+              <br><br>
+              During my studies I have completed courses in software development, algorithms, 
+              databases, web technologies, computer networks and security, computer 
+              architecture, systems and control engineering, physics and mathematics.
+            </p>
+            <h3>
+              Skills
+            </h3>
+            <ul>
+                <li>
+                  Fullstack Web Development, JavaScript(React.js, Node.js), Python(Django), SQL, MongoDB, Java, C/C++
+                </li>
+                <li>
+                  Linux/Windows
+                </li>
+                <li>
+                  Algorithm analysis, data structures, Object Oriented programming, Fullstack development, databases(mysql, sqlite, mongodb)
+                </li>
+                <li>
+                  Azure, Git/Github
+                </li>
+              </ul>
           </div>
-          <h2 class="sub-section-header">
-            Education
-          </h2>
-          <p class="left-border">
-            During my Computer Engineering studies I have completed courses in software development, algorithms, 
-            databases, web technologies, computer networks and security, computer 
-            architecture, systems and control engineering, physics and mathematics.
-          </p>
-          <div class="education">
-            <div class="swag-container">
-              <h3 class="swag-container-header">Borgå Gymnasium</h3>
-              <p class="swag-container-text">A level<br>2019</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Nyland Brigade, NCO school</h3>
-              <p class="swag-container-text">Leadership training<br>2019</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Åbo Akademi University</h3>
-              <p class="swag-container-text">Bachelor of technology (Computer Engineering)<br>2023</p>
-            </div>
-          </div>
-          <h2 class="sub-section-header">
-            Skills
-          </h2>
-          <div class="skills">
-            <div class="swag-container">
-              <h3 class="swag-container-header">Programming Languages</h3>
-              <p class="swag-container-text">Java <strong>|</strong> C/C++/C# <strong>|</strong> JS <strong>|</strong> Python <strong>|</strong> Lua</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Web Development</h3>
-              <p class="swag-container-text">React.js <strong>|</strong> Node.js <strong>|</strong> Django <strong>|</strong> Mysql <strong>|</strong> MongoDB</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">GUI Application Development</h3>
-              <p class="swag-container-text">GTK (C/C++) <strong>|</strong> JavaFX</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Misc</h3>
-              <p class="swag-container-text">Git <strong>|</strong> Azure <strong>|</strong> Active Directory <strong>|</strong> Heroku</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Data Analysis</h3>
-              <p class="swag-container-text">Pandas <strong>|</strong> Numpy <strong>|</strong> Matplotlib</p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Operating Systems</h3>
-              <p class="swag-container-text">Linux <strong>|</strong> Windows <strong>|</strong> Windows Server <strong>|</strong> MacOS</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="experience" class="sec">
-        <h1 class="heading">
-          > Experience
-        </h1>
-        <div class="swag-box">
-          <h2 class="sub-section-header">Software development</h2>
-          <p class="left-border">
+        </section>
+        <section>
+          <h1 class="heading">
+            Experience
+          </h1>
+          <div class="swag-box">
+            <h4>Software development</h4>
             During my three years of computer engineering studies and during my free time I have gained
-          experience in software development through writing different kinds of apps (including fullstack web apps). 
-          A number of these apps can be found under the Projects tab. 
-          I have experience with a lot of common and widely used programming languages and technologies, used for Web Development, 
-          GUI Development and Data Analysis.
-          </p>
-          <p class="left-border">
-            Recently I have been working a lot with C for GTK application development, aswell as JavaScript and Django.
-          </p>
-        </div>
-        <div class="swag-box">
-          <h2 class="sub-section-header">
-            Certificates
-          </h2>
-          <div>
-            <a href="https://www.testdome.com/certificates/807519b45a2f47d7a299d4207211dc77" class="testdome-certificate-stamp silver">
-              <span class="testdome-certificate-name">Luka Alhonen</span>
-              <span class="testdome-certificate-test-name">Technical Support</span>
-              <span class="testdome-certificate-card-logo">TestDome<br>Certificate</span>
+            experience in software development through writing different kinds of apps (including fullstack web apps). 
+            A number of these apps can be found under the Projects tab. 
+            I have experience with a lot of common and widely used programming languages and technologies, including
+            Python, Java, javascript, git/github, azure, etc. 
+          </div>
+          <div class="swag-box">
+            <h3>
+              Certificates
+            </h3>
+            <div>
+              <a href="https://www.testdome.com/certificates/807519b45a2f47d7a299d4207211dc77" class="testdome-certificate-stamp silver">
+                <span class="testdome-certificate-name">Luka Alhonen</span>
+                <span class="testdome-certificate-test-name">Technical Support</span>
+                <span class="testdome-certificate-card-logo">TestDome<br>Certificate</span>
             </a>
             <script>
                 var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css",
@@ -181,87 +123,83 @@
                 link.media = "screen,print",
                 document.getElementsByTagName("head")[0].appendChild(link);
             </script>
+            </div>
           </div>
-        </div>
-      </section>
-      <section id="projects" class="sec">
-        <h1 class="heading">
-          > Projects
-        </h1>     
-        <div class="swag-box">
-          <h2 class="sub-section-header">Luka's Webshop</h4>
-          <div class="project-box">
-            <div class="project-description">
-              <p class="left-border">
-                For a course project in a web technologies course I was tasked with creating a webshop. 
-                <br>
-                The app is written <strong>django</strong> and <strong>react</strong>, with a sqlite database and a <strong>rest API</strong>.
-                <br>
-                Anyone can browse the shop, but in order to buy or sell items, one has to register and log in to the site.
-              </p>
-              <div class="swag-container project-links-container">
-                <p>
-                  <img class="app-service-logo" src="media/10018-icon-service-Azure-A.svg"> The app is hosted on <strong>Azure App Service</strong> and can be found <a class="swag-link project-link" href="https://lukaswebshop.azurewebsites.net"><strong>Here</strong></a>
-                  <br><br>
-                  <img class="git-logo" src="media/github-mark.svg" alt="github logo"> The github repository can be found <strong><a class="swag-link project-link" href="https://github.com/LukaAlhonen/webshop">Here</a></strong>
-                </p>
+        </section>
+        <section>
+          <h1 class="heading">
+            Projects
+          </h1>     
+          <div class="swag-box">
+            <h4><a class="swag-link" href="https://lukaswebshop.azurewebsites.net">Luka's Webshop</a></h4>
+            <p>
+              A fullstack web app written in <strong>django</strong> and <strong>react</strong>, with a sqlite database.
+              <br>
+              This is a webshop app I made according to specifications, for a web technologies course.
+              <br>
+              Anyone can browse the shop, but in order to buy or sell items, one has to register and log in to the site.
+              <br><br>
+              The site is hosted on <strong>Azure App Service</strong> and can be found <a class="swag-link" href="https://lukaswebshop.azurewebsites.net"><strong>Here</strong></a>
+              <br><br>
+              The git repository can be found <strong><a class="swag-link" href="https://github.com/LukaAlhonen/webshop">Here</a></strong>
+            </p>
+            <div class="project-imgs">
+              <div class="imgs-container">
+                <img id="img1" onclick="expand(id)" src="Images/webshop_img1.png">
+                <img id="img2" onclick="expand(id)" src="Images/webshop_img2.png">
               </div>
             </div>
-              <div class="project-img-container">
-                <a class="swag-img-link" href="https://lukaswebshop.azurewebsites.net">
-                  <img class="project-img" src="media/webshop_img2.png">  
-                </a>
-              </div>
           </div>
-          
-        </div>
-        <div class="swag-box">
-          <h2 class="sub-section-header">Cash Register System</h2>
-          <div class="project-box">
-            <div class="project-description">
-              <p class="left-border">
-                A cash register system I created together with my group for a software development course.
-                <br>
-                The app is written in Java and was created according to specifications.
-                <br>
-                The cashbox, cardreader and product catalogs are emulated by Java applications.
-                <br>
-                A user can "scan an item" by typing in the barcode associated with the item and remove an item by selecting it from the UI and clicking the remove button
-                <br>
-                A purchase can be made in cash or with a card payment and works by sending a POST request to the cashbox or cardreader.
-              </p>
-              <div class="swag-container project-links-container">
-                <img class="git-logo" src="media/github-mark.svg" alt="github logo"> The github repository can be found <strong><a class="project-link" href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">here</a></strong>
-              </div>
-            </div>
-            <div class="project-img-container">
-              <a class="swag-img-link" href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">
-                <img class="project-img" src="media/Cash_register.png">
-              </a>
-            </div>
+          <div class="swag-box">
+            <h4><a class="swag-link" href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">Cash Register System</a></h4>
+            <p>
+              A cash register system I created together with my group for a software development course.
+              <br>
+              The app is written in Java and was created according to specifications.
+              <br>
+              The cashbox, cardreader and product catalogs are emulated by Java applications.
+              <br>
+              A user can "scan an item" by typing in the barcode associated with the item and remove an item by selecting it from the UI and clicking the remove button
+              <br>
+              A purchase can be made in cash or with a card payment and works by sending a POST request to the cashbox or cardreader.
+              <br>
+              The source code for the app can be found <strong><a href="https://github.com/it-teaching-abo-akademi/project-pvp22-grupp-sjutton">here</a></strong>
+            </p>
+            <img id="img5" onclick="expand(id)" src="Images/Screenshot from 2023-02-06 14-17-17.png">
           </div>
-        </div>
-      </section>
-      <section id="contact" class="sec">
-        <h1 class="heading">
-          > Contact Me
-        </h1>  
-        <div class="swag-box">
-          <h2 class="sub-section-header">Get in touch with me</h2>
-          <div class="contacts">
-            <div class="swag-container">
-              <h3 class="swag-container-header">Email</h3>
-              <p class="swag-container-text"><a class="project-link" href="mailto:luka.alhonen@protonmail.com">luka.alhonen@protonmail.com</a></p>
-            </div>
-            <div class="swag-container">
-              <h3 class="swag-container-header">Links</h3>
-              <p class="swag-container-text"><img class="git-logo" src="media/In-Blue-14@2x.png" alt="github logo"><a class="project-link" href="https://www.linkedin.com/in/luka-alhonen-11b2bb201/"><strong> LinkedIn</strong></a> <strong>|</strong> <img class="git-logo" src="media/github-mark.svg" alt="github logo"><a class="project-link" href="https://github.com/LukaAlhonen"><strong> GitHub</strong></a></p>
-            </div>
-          </div>
-        </div>      
-      </section>
-    </main>
-    
-    <script src="app.js"></script>
+        </section>
+        <section id="contact">
+          <h1 class="heading">
+            Contact Me
+          </h1>  
+          <div class="swag-box">
+            <p>
+              <strong>Email:</strong>
+              <br>
+              luka.alhonen@protonmail.com
+            </p>
+            <p>
+              <strong>Phone number:</strong>
+              <br>
+              0451455399
+            </p>
+            <p>
+              <strong>Adress:</strong>
+              <br>
+              Hämeenkatu 12 A 22, 20500, Turku, Finland
+            </p>
+            <p>
+              <strong>Links:</strong>
+              <br>
+              <a href="https://www.linkedin.com/in/luka-alhonen-11b2bb201/">LinkedIn</a>
+              <br>
+              <a href="https://github.com/LukaAlhonen">GitHub</a>
+            </p>
+          </div>      
+        </section>
+      </main>
+    </div>
+    <script src="app.js">
+    </script>
   </body>
 </html>
