@@ -395,13 +395,13 @@ section p {
 }
 
 .swag-container {
-  border-left: 8px solid var(--sunflower);
+  border-left: 8px solid var(--mystic);
   border-radius: 8px;
   padding: 20px;
   padding-left: 10px;
   margin: 20px;
   margin-left: 0px;
-  background-color: var(--ligth-yellow);
+  background-color: white;
   color: #333;
 }
 
