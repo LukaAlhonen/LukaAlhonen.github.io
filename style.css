@@ -454,9 +454,9 @@ section p {
 
 .project-img-container {
     margin-left: 1rem;
-    max-height: 400px;
-    max-width: 520px;
-    min-width: 200px;
+    max-height: 20rem;
+    max-width: 35rem;
+    min-width: 15rem;
     position: relative;
     padding: 5px 0px 5px 0px;
     display: block;
