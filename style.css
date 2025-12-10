@@ -560,6 +560,11 @@ section p {
         display: none;
     }
 
+    .main-nav.fixed ~ .navbar-placeholder {
+        display: none;
+        height: 3rem;
+    }
+
     .name-title {
         font-size: 0.7rem;
     }
